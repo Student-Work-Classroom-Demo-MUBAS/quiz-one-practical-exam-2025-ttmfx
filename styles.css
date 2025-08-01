@@ -3,6 +3,16 @@
 /* TODO: Dark theme styles */
 /* TODO: Highlight class for list items */
 
+body {
+  background-color: white;
+  color: black;
+}
+
+.background-dark {
+  background-color: black;
+  color: white;
+
+}
 nav{
     display: flex;
     align-items: center;
@@ -26,6 +36,22 @@ nav ul li a{
 nav ul li a:hover{
      text-decoration:underline;
      color: cornflowerblue;
+}
+
+.toggle-theme {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-theme-dark{
+  background-color: white;
+  color: black;  
+}
+.toggle-theme-light{
+  background-color: black;
+  color: white;  
 }
 
 @media (min-width: 600px) {
