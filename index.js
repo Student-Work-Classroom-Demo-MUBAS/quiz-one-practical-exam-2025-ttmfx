@@ -15,6 +15,10 @@ $(".toggle-theme").on("click", function (){
     }
     isDark = !isDark
 })
+
+$("input").on("click", function(){
+    
+})
 // TODO: Add event listener for theme change button
 
 // TODO: Add jQuery code for highlighting list items

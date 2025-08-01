@@ -45,6 +45,13 @@ nav ul li a:hover{
   cursor: pointer;
 }
 
+.add-item-button{
+    padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .toggle-theme-dark{
   background-color: white;
   color: black;  
